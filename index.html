@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGlow | Luz natural, calma real</title>
+    <meta name="description" content="Velas artesanales hechas a mano con cera de soja 100% natural. Aromas florales, amaderados y cítricos sin químicos.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ============================================
+         NAVBAR
+    ============================================ -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <div class="nav-brand">EcoGlow</div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="material-symbols-outlined">menu</span>
+            </label>
+            
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#nosotros" class="nav-link">Sobre nosotros</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#precios" class="nav-link">Precios</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            
+            <a href="#contacto" class="btn btn-primary nav-btn">Comprar ahora</a>
+        </nav>
+    </header>
+
+    <!-- ============================================
+         HERO SECTION
+    ============================================ -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=1920&q=80" alt="Velas artesanales encendidas en ambiente cálido con plantas" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-tagline">Velas artesanales ecológicas</span>
+            <h1 class="hero-title">Luz natural, calma real</h1>
+            <p class="hero-subtitle">Velas hechas a mano con cera de soja 100% natural, aceites esenciales puros y pabilos de algodón. Transforma tu espacio en un refugio de paz.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary btn-lg">Haz tu pedido</a>
+                <a href="#productos" class="btn btn-outline btn-lg">Conoce nuestros aromas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         STATISTICS SECTION
+    ============================================ -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="material-symbols-outlined stat-icon">local_fire_department</span>
+                <div class="stat-number">200+</div>
+                <div class="stat-label">Velas vendidas</div>
+            </div>
+            <div class="stat-item">
+                <span class="material-symbols-outlined stat-icon">spa</span>
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Ingredientes naturales</div>
+            </div>
+            <div class="stat-item">
+                <span class="material-symbols-outlined stat-icon">sentiment_very_satisfied</span>
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Clientes satisfechos</div>
+            </div>
+            <div class="stat-item">
+                <span class="material-symbols-outlined stat-icon">science</span>
+                <div class="stat-number">0</div>
+                <div class="stat-label">Químicos añadidos</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PRODUCTS SECTION
+    ============================================ -->
+    <section class="products" id="productos">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">Colección Artesanal</h2>
+                    <p class="section-desc">Descubre fragancias diseñadas para evocar recuerdos y momentos de serenidad.</p>
+                </div>
+                <div class="tabs">
+                    <input type="radio" name="tab" id="tab-florales" checked>
+                    <input type="radio" name="tab" id="tab-amaderados">
+                    <input type="radio" name="tab" id="tab-citricos">
+                    
+                    <div class="tab-labels">
+                        <label for="tab-florales" class="tab-label">Florales</label>
+                        <label for="tab-amaderados" class="tab-label">Amaderados</label>
+                        <label for="tab-citricos" class="tab-label">Cítricos</label>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <!-- Florales -->
+                        <div class="tab-panel" id="panel-florales">
+                            <div class="product-grid">
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Jazmín de Verano con flores blancas" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Jazmín de Verano</h3>
+                                            <span class="product-price">$15.000</span>
+                                        </div>
+                                        <p class="product-desc">Notas frescas y dulces que transportan a un jardín en plena floración.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Jazmín%20de%20Verano" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                                
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Lavanda Relajante en envase ámbar" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Lavanda Relajante</h3>
+                                            <span class="product-price">$15.000</span>
+                                        </div>
+                                        <p class="product-desc">El aroma perfecto para terminar el día y preparar la mente para el descanso.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Lavanda%20Relajante" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                                
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Rosa de Damasco" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Rosa de Damasco</h3>
+                                            <span class="product-price">$16.000</span>
+                                        </div>
+                                        <p class="product-desc">Elegancia floral que embriaga con su dulzura natural y romántica.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Rosa%20de%20Damasco" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        
+                        <!-- Amaderados -->
+                        <div class="tab-panel" id="panel-amaderados">
+                            <div class="product-grid">
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Sándalo Místico" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Sándalo Místico</h3>
+                                            <span class="product-price">$17.000</span>
+                                        </div>
+                                        <p class="product-desc">Profundidad amaderada que invita a la meditación y el equilibrio interior.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Sándalo%20Místico" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                                
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Cedro del Atlas" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Cedro del Atlas</h3>
+                                            <span class="product-price">$17.000</span>
+                                        </div>
+                                        <p class="product-desc">Fortaleza y calma en cada nota de esta fragancia ancestral.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Cedro%20del%20Atlas" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                                
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Bosque de Pinos en cerámica" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Bosque de Pinos</h3>
+                                            <span class="product-price">$18.000</span>
+                                        </div>
+                                        <p class="product-desc">Fragancia terrosa y revitalizante que llena tu hogar con la frescura del bosque.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Bosque%20de%20Pinos" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        
+                        <!-- Cítricos -->
+                        <div class="tab-panel" id="panel-citricos">
+                            <div class="product-grid">
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Limón Fresco" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Limón Fresco</h3>
+                                            <span class="product-price">$15.000</span>
+                                        </div>
+                                        <p class="product-desc">Energía cítrica que despierta los sentidos y purifica el ambiente.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Limón%20Fresco" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                                
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Naranja Dulce" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Naranja Dulce</h3>
+                                            <span class="product-price">$15.000</span>
+                                        </div>
+                                        <p class="product-desc">Dulzura cítrica que alegra el corazón y ilumina cualquier espacio.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Naranja%20Dulce" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                                
+                                <article class="product-card">
+                                    <div class="product-img-wrap">
+                                        <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Vela Bergamota Italiana" class="product-img">
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-header">
+                                            <h3 class="product-name">Bergamota Italiana</h3>
+                                            <span class="product-price">$16.000</span>
+                                        </div>
+                                        <p class="product-desc">Elegancia mediterránea con notas cítricas y un toque floral sutil.</p>
+                                        <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20la%20vela%20Bergamota%20Italiana" class="btn btn-outline btn-block">Ver detalles</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         GALLERY SECTION
+    ============================================ -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Momentos EcoGlow</h2>
+        </div>
+        <div class="gallery-scroll">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80" alt="Libro abierto y vela encendida en cama acogedora" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&q=80" alt="Vela con mecha de madera ardiendo" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Manos artesanas vertiendo cera de soja" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&q=80" alt="Velas en estante de baño con jabón orgánico" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80" alt="Sala de estar moderna con velas en mesa de centro" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Empaque de vela con papel reciclado y flores secas" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+    ============================================ -->
+    <section class="about" id="nosotros">
+        <div class="container about-grid">
+            <div class="about-img-wrap">
+                <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=800&q=80" alt="Plantación de soja sostenible al amanecer" class="about-img">
+                <div class="about-img-decor"></div>
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Nuestra Historia</h2>
+                <p class="about-text">EcoGlow nació en un pequeño taller familiar con la misión de iluminar hogares de forma consciente. Creemos en el valor de lo hecho a mano, en el respeto por el medio ambiente y en el poder de los aromas para mejorar nuestro bienestar diario.</p>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <span class="material-symbols-outlined value-icon">eco</span>
+                        <span class="value-label">100% Natural</span>
+                    </div>
+                    <div class="value-card">
+                        <span class="material-symbols-outlined value-icon">recycling</span>
+                        <span class="value-label">Eco-friendly</span>
+                    </div>
+                    <div class="value-card">
+                        <span class="material-symbols-outlined value-icon">back_hand</span>
+                        <span class="value-label">Hecho a mano</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TEAM SECTION
+    ============================================ -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title text-center">El alma tras la cera</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Elena Sanz, fundadora de EcoGlow" class="team-img">
+                    </div>
+                    <h3 class="team-name">Elena Sanz</h3>
+                    <p class="team-role">Fundadora & Artesana</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Marcos Ruiz, maestro perfumista" class="team-img">
+                    </div>
+                    <h3 class="team-name">Marcos Ruiz</h3>
+                    <p class="team-role">Maestro Perfumista</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80" alt="Lucía Gómez, logística y sostenibilidad" class="team-img">
+                    </div>
+                    <h3 class="team-name">Lucía Gómez</h3>
+                    <p class="team-role">Logística & Eco-Sostenibilidad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TESTIMONIALS SECTION
+    ============================================ -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-scroll">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                    </div>
+                    <p class="testimonial-text">"La vela de Lavanda es increíble. El aroma es sutil pero persistente, y el pabilo de madera hace un sonido tan relajante..."</p>
+                    <p class="testimonial-author">— María del Mar</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                    </div>
+                    <p class="testimonial-text">"Me encanta que el packaging sea totalmente reciclable. Se nota el cariño en cada detalle. Repetiré seguro."</p>
+                    <p class="testimonial-author">— Carlos Mendoza</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                        <span class="material-symbols-outlined star">star</span>
+                    </div>
+                    <p class="testimonial-text">"Las velas de jazmín son mi favoritas. Mi casa huele a un jardín de primavera todo el año."</p>
+                    <p class="testimonial-author">— Ana Lucía</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         BLOG SECTION
+    ============================================ -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Desde nuestro rincón</h2>
+                <a href="#" class="link-primary">Ver todas las entradas</a>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&q=80" alt="Comparación de velas de soja vs parafina" class="blog-img">
+                    <div class="blog-content">
+                        <h3 class="blog-title">Soja vs Parafina: ¿Por qué elegir lo natural?</h3>
+                        <p class="blog-excerpt">Descubre los beneficios para tu salud y el planeta al cambiar a ceras vegetales.</p>
+                        <a href="#" class="link-primary">Leer más →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1602607688659-8250b644c0fd?w=600&q=80" alt="Cortando mecha de vela con tijeras" class="blog-img">
+                    <div class="blog-content">
+                        <h3 class="blog-title">Guía de cuidados para tu vela EcoGlow</h3>
+                        <p class="blog-excerpt">Aprende a maximizar la duración de tu vela y evitar el efecto túnel.</p>
+                        <a href="#" class="link-primary">Leer más →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80" alt="Botellas de aceites esenciales y plantas secas" class="blog-img">
+                    <div class="blog-content">
+                        <h3 class="blog-title">Aromaterapia: Elige el aroma según tu estado</h3>
+                        <p class="blog-excerpt">¿Necesitas energía o calma? Te ayudamos a seleccionar tu fragancia ideal.</p>
+                        <a href="#" class="link-primary">Leer más →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PRICING SECTION
+    ============================================ -->
+    <section class="pricing" id="precios">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Planes de Suscripción & Packs</h2>
+                <p class="section-desc">Recibe la calma en tu puerta mes a mes o elige un pack especial.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-name">Esencial</h3>
+                    <div class="pricing-price">$15.000<span class="pricing-period"> / mes</span></div>
+                    <ul class="pricing-features">
+                        <li><span class="material-symbols-outlined check-icon">check</span> 1 Vela Mediana (200g)</li>
+                        <li><span class="material-symbols-outlined check-icon">check</span> Aroma sorpresa del mes</li>
+                        <li><span class="material-symbols-outlined check-icon">check</span> Guía de aromaterapia</li>
+                    </ul>
+                    <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20el%20plan%20Esencial" class="btn btn-outline btn-block">Seleccionar</a>
+                </div>
+                
+                <div class="pricing-card pricing-featured">
+                    <div class="pricing-badge">Más Popular</div>
+                    <h3 class="pricing-name">Dúo Calma</h3>
+                    <div class="pricing-price">$25.000<span class="pricing-period"> / mes</span></div>
+                    <ul class="pricing-features">
+                        <li><span class="material-symbols-outlined check-icon">check</span> 2 Velas Medianas</li>
+                        <li><span class="material-symbols-outlined check-icon">check</span> Eliges 1 aroma, 1 sorpresa</li>
+                        <li><span class="material-symbols-outlined check-icon">check</span> Envío prioritario gratis</li>
+                        <li><span class="material-symbols-outlined check-icon">check</span> Regalo semestral</li>
+                    </ul>
+                    <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20el%20plan%20Dúo%20Calma" class="btn btn-primary btn-block">Empezar suscripción</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 class="pricing-name">Experiencia Premium</h3>
+                    <div class="pricing-price">$35.000<span class="pricing-period"> / mes</span></div>
+                    <ul class="pricing-features">
+                        <li><span class="material-symbols-outlined check-icon">check</span> 3 Velas Grandes (400g)</li>
+                        <li><span class="material-symbols-outlined check-icon">check</span> Personalización de etiquetas</li>
+                        <li><span class="material-symbols-outlined check-icon">check</span> Acceso a fragancias exclusivas</li>
+                    </ul>
+                    <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20el%20plan%20Premium" class="btn btn-outline btn-block">Seleccionar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+    ============================================ -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-wrap">
+                    <h2 class="section-title">¿Hablamos?</h2>
+                    <p class="section-desc">Estamos aquí para resolver cualquier duda sobre nuestros productos o pedidos especiales para eventos.</p>
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" name="nombre" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Teléfono</label>
+                            <input type="tel" name="telefono" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Producto</label>
+                            <select name="producto" class="form-input">
+                                <option value="">Selecciona un producto</option>
+                                <option value="jazmin">Jazmín de Verano</option>
+                                <option value="lavanda">Lavanda Relajante</option>
+                                <option value="pinos">Bosque de Pinos</option>
+                                <option value="sandalo">Sándalo Místico</option>
+                                <option value="limon">Limón Fresco</option>
+                                <option value="plan-esencial">Plan Esencial</option>
+                                <option value="plan-duo">Plan Dúo Calma</option>
+                                <option value="plan-premium">Plan Premium</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Mensaje</label>
+                            <textarea name="mensaje" class="form-input form-textarea" rows="4"></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" name="privacidad" id="privacidad" required>
+                            <label for="privacidad">Acepto la política de privacidad</label>
+                        </div>
+                        <input type="text" name="_gotcha" style="display:none">
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Información de contacto</h3>
+                    <div class="contact-info-item">
+                        <span class="material-symbols-outlined contact-icon">location_on</span>
+                        <span>Calle de la Calma 123, Madrid</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <span class="material-symbols-outlined contact-icon">call</span>
+                        <span>+34 912 345 678</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <span class="material-symbols-outlined contact-icon">mail</span>
+                        <span>hola@ecoglow.com</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <span class="material-symbols-outlined contact-icon">schedule</span>
+                        <span>Lunes a Viernes, 9:00 - 18:00</span>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4 class="contact-social-title">Síguenos</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram">IG</a>
+                            <a href="#" class="social-link" aria-label="Facebook">FB</a>
+                            <a href="#" class="social-link" aria-label="Pinterest">PT</a>
+                        </div>
+                    </div>
+                    
+                    <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20hacer%20un%20pedido" class="whatsapp-cta">
+                        <span class="material-symbols-outlined">chat</span>
+                        ¿Prefieres escribirnos? Haz clic aquí
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+    ============================================ -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">EcoGlow</div>
+                <p class="footer-desc">Luz natural para hogares conscientes. Velas de soja hechas a mano con amor y respeto por el planeta.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Explora</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#nosotros">Sobre nosotros</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Newsletter</h4>
+                <p class="footer-desc">Suscríbete para recibir consejos de calma y ofertas exclusivas.</p>
+                <form class="newsletter-form" action="https://formspree.io/f/YOUR_NEWSLETTER_ID" method="POST">
+                    <input type="email" name="email" placeholder="Tu email" class="newsletter-input" required>
+                    <button type="submit" class="newsletter-btn">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2024 EcoGlow. Hecho con calma para un mundo mejor.</p>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         FLOATING WHATSAPP BUTTON
+    ============================================ -->
+    <a href="https://wa.me/56912345678?text=Hola%20EcoGlow,%20quiero%20hacer%20un%20pedido" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.481s3.481 5.228 3.481 8.404c0 6.556-5.332 11.888-11.888 11.888-2.01 0-3.987-.51-5.743-1.477l-6.241 1.701zm6.103-4.145l.438.26c1.472.873 3.167 1.334 4.902 1.334 5.177 0 9.388-4.211 9.388-9.388 0-2.507-.977-4.863-2.751-6.638s-4.13-2.751-6.638-2.751c-5.177 0-9.388 4.211-9.388 9.388 0 1.83.533 3.614 1.541 5.156l.285.437-.999 3.649 3.722-.962zm10.51-6.398c-.287-.144-1.698-.838-1.961-.933-.264-.096-.456-.144-.648.144-.191.287-.741.933-.909 1.124-.168.191-.336.215-.623.071-.287-.144-1.213-.447-2.311-1.427-.854-.762-1.431-1.704-1.598-1.991-.168-.287-.018-.442.126-.584.13-.128.287-.335.431-.502.144-.168.191-.287.287-.478.096-.191.048-.359-.024-.502-.072-.144-.648-1.554-.887-2.128-.233-.568-.47-.49-.648-.499-.168-.008-.359-.01-.551-.01-.192 0-.503.072-.766.359-.263.287-1.005.981-1.005 2.392 0 1.411 1.028 2.775 1.172 2.966.144.191 2.024 3.09 4.903 4.332.684.296 1.219.472 1.636.605.688.218 1.314.187 1.809.114.551-.081 1.698-.694 1.938-1.364.239-.67.239-1.244.168-1.364-.072-.12-.264-.191-.551-.336z"/>
+        </svg>
+    </a>
+
+</body>
+</html>
